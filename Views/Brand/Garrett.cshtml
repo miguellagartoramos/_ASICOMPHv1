@@ -1,0 +1,89 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Garrett";
+}
+
+<div class="head-link">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="~/Home">Home</a></li>
+            <li><a href="~/Brand">Brand</a></li>
+            <li class="active"><a href="~/Brand/Garrett">Garrett</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="product-lines">
+    <div class="container">
+        <div class="row">
+            <div id="panel" class="col-md-3">
+                @Html.Partial("_SidePanel")
+            </div>
+            <div class="col-md-9">
+                <img src="~/Images/brand/Garrett/garrett_cover.jpg" alt="garrett metal detector" class="img-responsive center-block" />
+                <div class="card-deck text-center">
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="~/Images/brand/Garrett/garrett_2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title garrett-color">Hand-Held Metal Detector</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="~/Images/brand/Garrett/garrett_3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title garrett-color">Walk-Through Metal Detector</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="~/Images/brand/Garrett/garrett_4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title garrett-color">X-ray Scanner</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h1 class="garrett-color">Garrett</h1>
+                                <p>
+                                    The Garrett name has come to stand for more than metal detection; it is a philosophy for unparalleled customer satisfaction.
+                                    While it is true that we believed then, as we do now, that our metal detectors could lead the industry in capabilities and results,
+                                    we recognized early on that commitment and loyalty to our customers would be our true source of success.
+                                </p>
+                                <p>
+                                    Now, as Garrett moves through the 21st century, the company has set goals to empower our customers with better products, better
+                                    technology and better information.
+                                </p>
+                                <p>
+                                    Garrett's mission is to continue the tradition of building great hobby and security detectors for many generations to come.
+                                </p>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="~/Images/brand/Garrett/garrett_1.jpg" alt="garrett metal detector"  class="img-responsive img-space">
+                            </div>
+                        </div>
+
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <h4>The Global Leader</h4>
+                                <p>
+                                    Garrett Metal Detectors™ is the global leader of walk-through, hand-held and ground search metal detection products
+                                    and training for security and law enforcement applications.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>For Security</h4>
+                                <p>Metal Detectors allows you to detect metal such us guns and other weapon. Very handy and effective.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Easy Parking</h4>
+                                <p>We provide high quality metal detectors that give you practical solutions for your security checkpoint installations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

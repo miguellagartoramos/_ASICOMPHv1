@@ -1,0 +1,125 @@
+﻿/* RESPONSIVE */
+@media (max-width: 1199px) {
+    .product-line-list h2 a{
+        font-size: 14px;
+    }
+    .product-line-list .list-group-item{
+        padding-top: 12.3px;
+        padding-bottom: 12.3px;
+    }
+    .installation-photos {  
+        column-count: 3;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .push-content,
+  .wrapper {
+    height: 100%;
+  }
+  .table-responsive{
+      border: none;
+  }
+   .table-responsive > .table {
+    margin-bottom: 0;
+    background-color: transparent;
+  }
+  .wrapper {
+    overflow: hidden;
+  }
+  .header {
+    line-height: 120px;
+    }
+  .push-content {
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+
+  .site-content {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .header {
+    position: static;
+  }
+  .header-logo{
+      margin-left: 20px;
+      font-size: 15px;
+  }
+  .header-icon {
+    position: relative;
+    display: block;
+    float: left;
+    width: 50px;
+    height: 120px;
+    cursor: pointer;
+  }
+  .header-icon:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 0;
+    top: 30px;
+    left: 15px;
+    box-shadow: 0 20px 0 3px #FFF, 0 30px 0 3px #FFF, 0 40px 0 3px #FFF;
+  }
+
+  .menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color:  #eee;
+    /*    overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;*/
+    width: 250px;
+    -webkit-transform: translateX(-250px);
+    transform: translateX(-250px);
+  }
+  .menu a {
+    display: block;
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .menu a:hover, .menu a:focus, .menu a:active {
+    color: #2E2538;
+  }
+
+  .sidebar .push-content {
+    -webkit-transform: translateX(250px);
+    transform: translateX(250px);
+  }
+  .sidebar .site-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+    .installation-photos {  
+        column-count: 2;
+    }
+
+  .pin {
+    bottom: 70px;
+    z-index: 999;
+    transition: .3s ease-in-out all;
+  }
+}

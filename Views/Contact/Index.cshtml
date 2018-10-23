@@ -1,0 +1,338 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.title = "Contact Us";
+}
+
+<div class="head-link">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="~/Home">Home</a></li>
+            <li class="active"><a href="~/Contact">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="contact-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" id="panel">
+                @Html.Partial("_SidePanel")
+            </div>
+            <div class="col-md-9">
+                <div class="branches">
+                    <ul class="list-inline" role="tablist">
+                        <li class="active"><a href="#luzon" data-toggle="tab">Luzon Branch</a></li>
+                        <li><a href="#visayas" data-toggle="tab"> Visayas Branch</a></li>
+                        <li><a href="#mindanao" data-toggle="tab">Mindanao Branch</a></li>
+                    </ul>
+                </div>
+
+                @*<h4 style="padding: 5px 10px; font-weight: 700;">Do you have a question or problem that you need our help?</h4>*@
+                <div class="tab-content">
+                    <div class="tab-pane active fade in" id="luzon">
+                        <div class="row vdivide">
+                            <div class="card-group">
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.2021195667343!2d121.02363173360494!3d14.609983512856914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9d9b5bca955%3A0x9d64cf3e05b5e0ba!2sAutomation+and+Security%2C+Inc.!5e0!3m2!1sen!2sph!4v1487644651503"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">ASI Central Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> (02) 727-2727 / 0916 727 2727</li>
+                                            <li><b>Address:</b> #36 S. Veloso St., Brgy. Salapan, San Juan City</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.2713003276444!2d120.58095931528653!3d16.411042134544815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a171a379e3db%3A0xa7f195f64b4d4afb!2sJasmine+General+Construction+and+Enterprise!5e0!3m2!1sen!2sph!4v1465547664889"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Baguio City Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 0995 436 7858</li>
+                                            <li><b>Address:</b> 48 Middle Rock Quarry, Baguio City</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.1569906111904!2d122.55773831537337!3d10.722372063119685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aee521fe2cc293%3A0x49dc7727068cd25b!2s70+Commission+Civil+St%2C+Jaro%2C+Iloilo+City%2C+Iloilo!5e0!3m2!1sen!2sph!4v1525333803969"></iframe>
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Balanga Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 0915 703 0834</li>
+                                            <li><b>Address:</b> #4 camacho building, camacho st. brgy bagumbayan, Balanga City, Bataan</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row vdivide">
+                            <div class="card-group">
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1927.9648282775645!2d120.86479053753959!3d14.885211334000488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33965499f34944c7%3A0xf1457c01bd438715!2sChinabank!5e0!3m2!1sen!2sph!4v1525331094863"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bulacan Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 044 795 0520 / 0915 136 5866</li>
+                                            <li><b>Address:</b> Phoebe's Place building, Gov. Padilla road Banga 1st, Plaridel, Bulacan</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.655172902402!2d123.18105816526848!3d13.617860104051175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xf786e03ffb6805b1!2sFil-Canadian+Training+and+Development+Center+for+Caregivers!5e0!3m2!1sen!2sph!4v1465546954505"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Camarines Sur Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 0926 744 5642</li>
+                                            <li><b>Address:</b> Annelle bldg. Corner PNR road, Tabuco, Naga City</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.9423939892!2d120.94359201527256!3d14.314778887853718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d5a63f2573ef%3A0x1630b52d24529b24!2sSan+Agustin+2!5e0!3m2!1sen!2sph!4v1465542614187"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cavite Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 0917 727 2025</li>
+                                            <li><b>Address:</b> D Calipic St., Brgy. San Agustin 2 Aguinaldo High-way, Dasmarinas Cavite</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row vdivide">
+                            <div class="card-group">
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30429.525108251783!2d120.40954385410303!3d17.569909580992608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x166a3308f23a651b!2sWestern+Union+-+Ilocos+Sur+Cooperative+Bank!5e0!3m2!1sen!2sph!4v1525335970880"></iframe>
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ilocos Sur Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 0926 433 7024</li>
+                                            <li><b>Address:</b> Ground floor, ISCB bldg. Zone 5, Bantay, Ilocos Sur</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.3645140883286!2d121.1594773173995!3d14.210287643680044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd63d2e54ddbf7%3A0xbc527e15967fd400!2s52+Burgos+St%2C+Calamba%2C+Laguna!5e0!3m2!1sen!2sph!4v1465547311520"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Laguna Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> (049) 544 0834 / 0927 041 4077</li>
+                                            <li><b>Address:</b> 52 Burgos St., Calamba City, Laguna</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.2381543575166!2d120.31653956535366!3d16.614812588545885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33918e403b7134bb%3A0xa4d463725f8a2d1b!2sbarangay+II%2C+San+Fernando+City%2C+La+Union!5e0!3m2!1sen!2sph!4v1516082145084"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">La Union Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 0956 432 2276</li>
+                                            <li><b>Address:</b> Zamora St. Brgy. II San Fernando City La Union</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row vdivide">
+                            <div class="card-group">
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3850.817516824151!2d120.59207131539388!3d15.168363166975515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7150b3f822854fb6!2sMountain+View+Bible+Baptist+Church!5e0!3m2!1sen!2sph!4v1525334202815"></iframe>
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pampanga Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 0927 233 5030</li>
+                                            <li><b>Address:</b> Unit K,  Mt. View, Balibago, Angeles,  Pampanga</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade in" id="visayas">
+                        <div class="row vdivide">
+                            <div class="card-group">
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.932978729345!2d122.94416561479976!3d10.662310292399045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed1b57931a40f%3A0xcf8c955de437df69!2sASI.COM.PH%2CINC.+-+BACOLOD+BRANCH!5e0!3m2!1sen!2sph!4v1525333743095"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bacolod Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> (034) 432 9201 / 0927 502 9968</li>
+                                            <li><b>Address:</b> A6, Esteban Magdalena Bldg., Hernaez St, Bacolod, Negros Occidental</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.2897282906565!2d123.88546231537215!3d10.318682270295689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999356c375081%3A0xadf58cff55583ca2!2sAutomation+and+Security+Incorporated+(ASI)+Cebu+Office!5e0!3m2!1sen!2sph!4v1525334467767"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cebu Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 268 8080 / 0917 727 2015</li>
+                                            <li><b>Address:</b> Door 1 Jimenez Bldg Lopez Jaena St. Brgy Subangdaku, Mandaue City</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.2021195667343!2d121.02363173360494!3d14.609983512856914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9d9b5bca955%3A0x9d64cf3e05b5e0ba!2sAutomation+and+Security%2C+Inc.!5e0!3m2!1sen!2sph!4v1487644651503"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">IloIlo Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> (033) 230 7024 / 0917 727 2003</li>
+                                            <li><b>Address:</b> #70 commission Civil St., Jaro, Iloilo City</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row vdivide">
+                            <div class="card-group">
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.2897282906565!2d123.88546231537215!3d10.318682270295689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999356c375081%3A0xadf58cff55583ca2!2sAutomation+and+Security+Incorporated+(ASI)+Cebu+Office!5e0!3m2!1sen!2sph!4v1525334467767"></iframe>
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lapu Lapu Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 0917 727 2022</li>
+                                            <li><b>Address:</b> Door 1 Jimenez Bldg. Lopez jaena st. brgy. subangdaku mandaue city</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.1872873560924!2d124.97762431546727!3d11.247628992002829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x330871316630aa43%3A0x8fa943001126a4a7!2sRpbj+Trading+and+Construction!5e0!3m2!1sen!2sph!4v1487646679083"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Leyte Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 0995 410 2701</li>
+                                            <li><b>Address:</b> 2F Gacusana Bldg. Maharlika Highway Brgy. 73 PHHC, Tacloban City</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.2897282906565!2d123.88546231537215!3d10.318682270295689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999356c375081%3A0xadf58cff55583ca2!2sAutomation+and+Security+Incorporated+(ASI)+Cebu+Office!5e0!3m2!1sen!2sph!4v1525334467767"></iframe>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mandaue Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact</b>: 0917-727-2015</li>
+                                            <li><b>Address:</b> Door 1 Jimenez Bldg. Lopez jaena st. brgy. subangdaku mandaue city</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade in" id="mindanao">
+                        <div class="row vdivide">
+                            <div class="card-group">
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.306865879614!2d125.53813211536867!3d8.94384459277805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301c04b1134d269%3A0xd851693b584c1be!2sMontilla+Blvd.%2C+Butuan+City%2C+Agusan+Del+Norte!5e0!3m2!1sen!2sph!4v1525334750312"></iframe>
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Agusan Del Norte Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> 0956 644 2974</li>
+                                            <li><b>Address:</b> Door#2. Racs building brgy. Port poyohon North Montilla Blvd Butuan city Agusan del Norte</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.306865879614!2d125.53813211536867!3d8.94384459277805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301c04b1134d269%3A0xd851693b584c1be!2sMontilla+Blvd.%2C+Butuan+City%2C+Agusan+Del+Norte!5e0!3m2!1sen!2sph!4v1525334750312"></iframe>
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Butuan Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.comph</li>
+                                            <li><b>Contact:</b> (085) 816 3469 / 0936 996 8277</li>
+                                            <li><b>Address:</b> Door #2, Ground Floor, Rac's Building, Brgy. Port Poyohon, North Montilla Blvd., Butuan City, Agusan del Norte 8602 Philippines</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.182065155708!2d124.64283621536772!3d8.48167099965469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2d9a77a9591%3A0xd4bf7e11b39dbb7!2sAutomation+%26+Security.+Inc.!5e0!3m2!1sen!2sph!4v1525335509840"></iframe>
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cagayan De Oro Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> (088) 323 2810 / 0917 727 2007</li>
+                                            <li><b>Address:</b> Montalban St., Corner Velez, Cagayan de Oro, 9000 Misamis Oriental</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row vdivide">
+                            <div class="card-group">
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.356864458668!2d125.60796911536596!3d7.084563518350358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96da78d72ae87%3A0xf5d321e97eddd20c!2sR.+Jopson+Family+Dental+Clinic!5e0!3m2!1sen!2sph!4v1525334885115"></iframe>
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Davao City Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.com.ph</li>
+                                            <li><b>Contact:</b> (082) 305 2727 / 0917 727 2006</li>
+                                            <li><b>Address:</b> Door 4, JTL Bldg, Doña Vicenta, Bajada, Davao City</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <iframe class="card-img-top" height="220" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1585202488427!2d125.17038521536537!3d6.109348029532654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f79fa0212c86dd%3A0x6c90ebb5bfabc6f1!2sSalazar+St%2C+General+Santos+City%2C+9500+South+Cotabato!5e0!3m2!1sen!2sph!4v1525337486977"></iframe>
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">General Santos Office</h5>
+                                        <ul class="card-text list-unstyled">
+                                            <li><b>Email:</b> info@asi.comph</li>
+                                            <li><b>Contact:</b> 0916 727 2727 / 0916 727 2014</li>
+                                            <li><b>Address:</b> Magsaysay avenue, corner salazar st  , Barangay Dadiangas South General Santos City</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

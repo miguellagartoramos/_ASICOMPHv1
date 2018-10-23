@@ -1,0 +1,115 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.title = "Career";
+}
+<div class="head-link">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="~/Home">Home</a></li>
+            <li class="active"><a href="~/Career">Career</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="career">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" id="panel">
+                @Html.Partial("_SidePanel")
+                <div class="facebook-page">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FASICOMPH%2F&tabs&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+                </div>
+                <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FASICOMPH%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+            <div class="col-md-9">
+                <div class="branches">
+                    <ul class="list-inline">
+                        <li><a href="~/About">Company Profile</a></li>
+                        <li><a href="~/About/ProductLines">Product Line</a></li>
+                        <li class="active"><a href="~/Career">Career</a></li>
+                        <li><a href="~/About/SoftwareIntegration">Software Integration</a></li>
+                    </ul>
+                </div>
+                <img src="~/Images/Career/career_cover.jpg" class="img-responsive center-block">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1 class="hik-color">Why join us?</h1>
+                                <ul>
+                                    <li>Progressive reward for diligence and productivity</li>
+                                    <li>Prefer average college graduates. We like to boost your confidence and strengthen your core competence</li>
+                                    <li>Large company with little bureaucracy and focus on merits.</li>
+                                    <li>We don't employ people in contract basis, We believe in you.</li>
+                                    <li>We invest in training and good working habbit.</li>
+                                    <li>We build next generation of engineers.</li>
+                                    <li>We apply scientific and modern management</li>
+                                    <li>We develop our own software that is using by multi national company.</li>
+                                    <li>We work hard and we play harder.</li>
+                                </ul>
+                                <p>
+                                    Our diverse portfolio of events and products enables staff to experience all corners of the business. There are regular
+                                    training sessions to attend, events to participate in, and travel opportunities to make the most of. Automation and Security
+                                    fosters a unique working environments, and also make your skills grow more.
+                                </p>
+                                <p>
+                                    We’re a fast growing company – each year we extend our products, always striving to serve our staff and clients better.
+                                    Come and experience Automation and Security – apply for an internship or one of the vacancies we currently have available.
+                                </p>
+                                @*<a href="#" class="btn btn-primary">View Job offer</a>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="~/Images/Career/career_1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title hik-color">Extra Curicullar</h5>
+                            <p class="card-text">
+                                We also offer karate trainings and self defense. Kyokushin kaikan is a style of stand-up, full contact
+                                karate.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="~/Images/Career/career_2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title hik-color">Work Hard Play Harder</h5>
+                            <p class="card-text">
+                                Out of town and country trips. Conducting seminars in and out of the country.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="~/Images/Career/career_3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title hik-color">Career Start</h5>
+                            <p class="card-text">
+                                The Career Start Programme includes a week-long classroom-based induction which covers all aspects of the role. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="career-details" class="panel panel-default">
+                    <embed src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4635.708209111134!2d121.02306302988973!3d14.610307173496496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9d9b5bca955%3A0x9d64cf3e05b5e0ba!2sAutomation+and+Security%2C+Inc.!5e0!3m2!1sen!2sph!4v1518056455339 " style="border:0; margin-top:0;">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1>Central Office - San Juan City</h1>
+                                <ul class="media-list">
+                                    <li><b>Address:</b> #36 S Veloso st., Brgy. Salapan, San Juan City Philippines 1500</li>
+                                    <li><b>Contact:</b> (02) 727 2727 / 0916 727 2727</li>
+                                    <li><b>E-mail:</b> info@asi.com.ph</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

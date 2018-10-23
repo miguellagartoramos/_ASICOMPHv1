@@ -1,0 +1,145 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.title = "ZKteco";
+}
+
+<div class="head-link">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="~/Home">Home</a></li>
+            <li><a href="~/Brand">Brand</a></li>
+            <li class="active"><a href="~/Brand/ZKTeco">ZKTeco</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="product-lines">
+    <div class="container">
+        <div class="row">
+            <div id="panel" class="col-md-3">
+                @Html.Partial("_SidePanel")
+            </div>
+            <div class="col-md-9">
+                <img src="~/Images/brand/Zkteco/zk_cover.jpg" alt="zkteco" class="img-responsive center-block" />
+
+                <div class="card-deck text-center">
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="~/Images/brand/Zkteco/zk_1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title zk-color">Time and Attendance</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="~/Images/brand/Zkteco/zk_2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title zk-color">Access Control</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="~/Images/brand/Zkteco/zk_3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title zk-color">Door Lock</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="~/Images/brand/Zkteco/zk_4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title zk-color">Entrance Control</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h1 class="zk-color">About</h1>
+                                <p>
+                                    ZKTeco, founded in March 1998, is the globally leading enterprise of hybrid biometric verification technology.
+                                    ZKTeco business covers various security and time management products and solutions, including time & attendance,
+                                    access control, visitor management, carpark management, elevator control, video surveillance and smart locks etc. For years,
+                                    ZKTeco has been experienced and innovating in the development and production of hybrid biometric verification technology.
+                                    It owns the most patents and intellectual property rights registrations. ZKTeco is always promoting the development of
+                                    hybrid biometric verification technology, and applies the technology to smart office, smart finance, smart traffic, smart
+                                    security etc., and has been the first enterprise to provide comprehensive entrance management, car entrance management and freight inspection solutions.
+                                </p>
+                            </div>
+                            <div class="col-md-5">
+                                <div id="facebook_panel" class="col-md-4 hidden-sm hidden-xs">
+                                    <embed id="123" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fzk.philippines%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" height="350">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <i class="large material-icons zk-color">face</i>
+                                <h4>Facial Recognition</h4>
+                                <p>A facial recognition system is a computer application for automatically identifying or verifying a person from a digital image or a video frame from a video source.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <i class="large material-icons zk-color">fingerprint</i>
+                                <h4>Access Reader</h4>
+                                <p>Access Control SystemAccess Control System is a security concept of restricting or controlling the access to authorized persons only.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <i class="large material-icons zk-color">credit_card</i>
+                                <h4>Payroll System</h4>
+                                <p>An automated payroll system enables the employer to process its payroll through a computerized system.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="zk-solution">
+                    <div class="col-md-12 text-center">
+                        <h2 class="zk-color">Solution</h2>
+                        <p>Provide the most advanced solution for a whole new user experience.</p>
+                        <ul id="solutions">
+                            <li>
+                                <img src="~/Images/brand/ZKTeco/education.png" alt="fingerprint lock" class="center-block img-responsive">
+                                <h5>Education</h5>
+                            </li>
+                            <li>
+                                <img src="~/Images/brand/ZKTeco/government.png" alt="fingerprint lock" class="center-block img-responsive">
+                                <h5>Government</h5>
+                            </li>
+                            <li>
+                                <img src="~/Images/brand/ZKTeco/healthcare.png" alt="fingerprint lock" class="center-block img-responsive">
+                                <h5>Health Care</h5>
+                            </li>
+                            <li>
+                                <img src="~/Images/brand/ZKTeco/finance.png" alt="time and attendance" class="center-block img-responsive">
+                                <h5>Finance</h5>
+                            </li>
+                            <li>
+                                <img src="~/Images/brand/ZKTeco/retail.png" alt="access control" class="center-block img-responsive">
+                                <h5>Retail</h5>
+                            </li>
+                            <li>
+                                <img src="~/Images/brand/ZKTeco/office.png" alt="zkteco philippines" class="center-block img-responsive">
+                                <h5>Office</h5>
+                            </li>
+                            <li>
+                                <img src="~/Images/brand/ZKTeco/hospitality.png" alt="zkteco philippines" class="center-block img-responsive">
+                                <h5>Hospitality</h5>
+                            </li>
+                            <li>
+                                <img src="~/Images/brand/ZKTeco/residential.png" alt="zkteco philippines" class="center-block img-responsive">
+                                <h5>Residential</h5>
+                            </li>
+                            <li>
+                                <img src="~/Images/brand/ZKTeco/construction.png" alt="zkteco philippines" class="center-block img-responsive">
+                                <h5>Construction</h5>
+                            </li>
+                            <li>
+                                <img src="~/Images/brand/ZKTeco/public_facilities.png" alt="zkteco philippines" class="center-block img-responsive">
+                                <h5>Public Facilities</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

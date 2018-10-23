@@ -1,0 +1,104 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.title = "Company Profile";
+}
+
+<div class="head-link">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="~/Home">Home</a></li>
+            <li class="active"><a href="~/About">About</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="company-profile">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" id="panel">
+                @Html.Partial("_SidePanel")
+            </div>
+            <div class="col-md-9">
+                <div class="branches">
+                    <ul class="list-inline">
+                        <li class="active"><a href="~/About/CompanyProfile">Company Profile</a></li>
+                        <li><a href="~/About/ProductLines">Product Line</a></li>
+                    </ul>
+                </div>
+
+                <img src="~/Images/company_profile/asi_banner.jpg" class="img-responsive">
+                <div id="profile_content" class="panel panel-default">
+                    <div class="panel-body">
+                        <h1>A few words About Us</h1>
+                        <img src="~/Images/company_profile/about.png" alt="ASI Exhibit held in Mall of ASIA." class="well pull-left" />
+                        <p>
+                            <b>Automation and Security, Inc.</b>
+                            defines service as knowledgeable, cost-effective maintenance,
+                            repair or replacement. We provide customer support with urgency - 2 hours response time,
+                            24 hours maximum downtime.
+                        </p>
+                        <p>
+                            Our technical expertise provides the best value solution in automation security needs and excellent customer service.
+                            We uphold our company's core values - innovation performance with integrity,
+                            sense of urgency and accountability for quality and achievement. Quality,
+                            price and service are the critical key factors that Automation and Security, Inc.
+                            continuously uphold.
+                        </p>
+                        <p>
+                            We provide easy access to our clients through our branches in Luzon, Visayas and Mindanao
+                            and aims to satisfy customers with our responsiveness,
+                            assurance of product and quality service and most of all reliability of our team.
+                        </p>
+
+                        <img src="~/Images/company_profile/about_1.png" class="img-responsive img-space" />
+
+                        <h1 class="space-30">Why choose asi.com.ph?</h1>
+
+                        <img src="~/Images/company_profile/why_asi.jpg" class="pull-left well">
+
+                        <p>
+                            <b>Automation and Security, Inc.</b> is continuously growing company,
+                            providing cost-effective security automation systems to industrial,
+                            manufacturing facilities, commercial properties, local governments,
+                            residential communities and retail establishments.We are dedicated
+                            to provide the best value solution in security and automation needs.
+                            Supported by our aim to develop our engineers and architects to be the best;
+                            trained in Singapore,Taiwan, Italy, and China to meet the international
+                            standards of today's fast evolving market.
+                        </p>
+
+                        <p>
+                            <b>Automation and Security, Inc.</b>
+                            is committed to provide excellent
+                            service gives us the edge in the security industry which begins with our employees.
+                            Our well-chosen team of professionals, intelligent, dedicated and dynamic staffs
+                            are our most valuable asset that would meet the high expectations of our clients.
+                            We conduct trainings and quality assurance to ensure that we are the finest in the industry.
+                        </p>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <iframe class="img-responsive" src="http://prezi.com/embed/uptvkq3dq9pl/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" frameborder="0"></iframe>
+                            </div>
+                            <div class="col-md-6">
+                                <p>
+                                    <b>Mission</b>
+                                    Asi aim to hasten the advancement of automation and security industry by providing regular training, seminars and services to security
+                                    agesncies, reseller, installers and end-users; and by participating in exhibits and trade shows to demonstrates the benefits and advantages
+                                    of using automation and security system.
+                                </p>
+                                <p>
+                                    <b>Objective</b>
+                                    Asi's objective is to assist client in improving their profitability through the application of technology, utilizing reliable and cost-effective
+                                    security solutions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <img src="~/Images/company_profile/asi logo.jpg" class="img-responsive center-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,88 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.title = "Beninca";
+}
+
+<div class="head-link">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="~/Home">Home</a></li>
+            <li><a href="~/Brand">Brand</a></li>
+            <li class="active"><a href="~/Brand/Beninca"><b>Beninca</b></a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="product-lines">
+    <div class="container">
+        <div class="row">
+            <div id="panel" class="col-md-3">
+                @Html.Partial("_SidePanel")
+            </div>
+            <div class="col-md-9">
+                <img src="~/Images/brand/Beninca/beninca_cover.jpg" alt="beninca" class="img-responsive center-block" />
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">                 
+                            <div class="col-md-6">
+                                <h1 class="beninca-color">About</h1>
+                                <p>
+                                    30 years old in 2009 with a history of acknowledgements and daily victories.
+                                    Our objective has always been to design, as specialists, evolved solutions for
+                                    residential and professional automation. For this reason the daily gestures of
+                                    opening and closing doors and gates have been transformed, thanks to us, into
+                                    convenience, service and safety. Over 25 years of evolution as protagonists.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <video controls>
+                                    <source src="https://04-lvl3-pdl.vimeocdn.com/01/1174/3/80871699/209415852.mp4?expires=1521621841&token=0f4d2e53ec86eacc1d8f0" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <h4>Live with style</h4>
+                                <p>For Commercial and industrial users. Automatic gates can attract business due to its elegant and stylist way of opening gates.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Easy Parking</h4>
+                                <p>Trouble opening your gate? How heavy the gate for you to open it? With automatic gates all you need is to press te button and BOOM the gates open like you have invisible guards.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>For Security</h4>
+                                <p>For security purpose, the gate can only open by the use of controller so no one can easily open the gate. The controller serve as your private key.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="~/Images/brand/Beninca/beninca_1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title beninca-color">Swing Gate</h5>
+                            <p class="card-text">We can retro-fit any existing gate to convert it to either a swing-in or swing-out operation</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="~/Images/brand/Beninca/beninca_2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title beninca-color">Sliding Gate</h5>
+                            <p class="card-text">Comfort, convenience and luxury of entering your property with a push of a button.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="~/Images/brand/Beninca/beninca_3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title beninca-color">Road Barrier</h5>
+                            <p class="card-text">Road barrier designed for the control of passages up to 5m long, ideal where is required the control and the management of passages of vehicles.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
